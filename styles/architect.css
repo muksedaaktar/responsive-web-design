@@ -206,7 +206,21 @@ main > section{
 }
 .sponsors-companies img{
     filter: grayscale(100%);
+
 }
+
+.footer-section{
+    margin: 0 auto;
+    text-align: center;
+    margin: 100px 240px;
+    border-radius: 5px;
+    height: 80px;
+    padding: 32px 410px;
+   
+}
+
+
+
 /* responsive design */
 @media screen and (max-width: 576px) {
     .navbar,
@@ -232,6 +246,10 @@ main > section{
     #experience-badge{
         margin-top: 20px;
         margin-left: 20px;
+    }
+    .footer{
+        padding: 10px;
+        font-size: .9rem;
     }
     
 }
